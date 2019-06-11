@@ -3,8 +3,8 @@
 import PackageDescription
 
 let package = Package(
-    name      : "CLibetpan",
-    pkgConfig : "libetpan-config",
+    name      : "libetpan",
+    pkgConfig : "libetpan",
     providers : [
         .brew(["libetpan"]),
         .apt(["libetpan-dev"])

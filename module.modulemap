@@ -1,4 +1,4 @@
-module CLibetpan [system] {
+module libetpan [system] {
     header "shim.h"
     link "libetpan"
     export *
